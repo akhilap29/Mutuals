@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       {data && data.length > 0 && <TableContainer component={Paper}>
-        <Table className={classes.table} aria-label="simple table">
+        <Table className={classes.table}>
             <TableHead>
               <TableRow>
                   <TableCell>Customer Name</TableCell>
